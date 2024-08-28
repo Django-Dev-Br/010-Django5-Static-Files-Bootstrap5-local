@@ -15,14 +15,7 @@ Neste, diferentemente, o Boostrap foi baixado via download e está sendo carrega
 
 **onsistência de Desempenho**: Usar arquivos locais pode oferecer tempos de carregamento mais consistentes, pois elimina a variabilidade de latência de rede que pode ocorrer ao carregar arquivos de um servidor remoto.
 
-### O que é Bootstrap?
-
-Bootstrap é um dos frameworks front-end mais populares do mundo, projetado para facilitar a criação de sites responsivos e com foco em dispositivos móveis. Criado originalmente pelo Twitter, Bootstrap fornece uma coleção de ferramentas CSS e JavaScript que ajudam os desenvolvedores a construir interfaces de usuário consistentes e atraentes rapidamente. Com Bootstrap, é possível adicionar componentes como botões, formulários, menus de navegação e muito mais, utilizando classes pré-definidas que seguem as melhores práticas de design responsivo. Além disso, o Bootstrap é facilmente integrável com outros frameworks e bibliotecas, tornando-se uma escolha popular para desenvolvedores de todos os níveis.
-
-Documentação oficial: [https://getbootstrap.com/docs/5.3/getting-started/introduction/](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
-
-Melhor tutorial: [https://www.w3schools.com/bootstrap5/](https://www.w3schools.com/bootstrap5/)
-
+Veja exemplos de páginas bootstrap: [https://getbootstrap.com/docs/4.0/examples/](https://getbootstrap.com/docs/4.0/examples/)
 
 ## COMO RODAR ESSE PROJETO EM SEU COMPUTADOR:
 
