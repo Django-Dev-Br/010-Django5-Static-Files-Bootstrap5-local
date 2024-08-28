@@ -5,6 +5,16 @@ Neste [repositório anterior](https://github.com/Django-Dev-Br/009-Django-4-stat
 
 Neste, diferentemente, o Boostrap foi baixado via download e está sendo carregaddo localmente.
 
+### Vantagens de Baixar e Rodar o Bootstrap Localmente
+
+**Independência de Conexão com a Internet**: Usar uma versão local significa que seu site não depende de uma conexão com a internet para carregar o Bootstrap. Isso é particularmente útil em ambientes de desenvolvimento offline ou em ambientes onde a conexão com a internet é lenta ou instável.
+
+**Controle sobre a Versão**: Ter uma cópia local do Bootstrap permite que você controle exatamente qual versão está sendo usada. Isso evita problemas com atualizações automáticas que podem ocorrer ao usar CDNs, onde novas versões podem introduzir mudanças inesperadas.
+
+**Customização**: Ao baixar Bootstrap localmente, você pode personalizar os arquivos CSS e JavaScript diretamente para atender às necessidades específicas do seu projeto, eliminando código desnecessário e potencialmente reduzindo o tamanho dos arquivos.
+
+**onsistência de Desempenho**: Usar arquivos locais pode oferecer tempos de carregamento mais consistentes, pois elimina a variabilidade de latência de rede que pode ocorrer ao carregar arquivos de um servidor remoto.
+
 ### O que é Bootstrap?
 
 Bootstrap é um dos frameworks front-end mais populares do mundo, projetado para facilitar a criação de sites responsivos e com foco em dispositivos móveis. Criado originalmente pelo Twitter, Bootstrap fornece uma coleção de ferramentas CSS e JavaScript que ajudam os desenvolvedores a construir interfaces de usuário consistentes e atraentes rapidamente. Com Bootstrap, é possível adicionar componentes como botões, formulários, menus de navegação e muito mais, utilizando classes pré-definidas que seguem as melhores práticas de design responsivo. Além disso, o Bootstrap é facilmente integrável com outros frameworks e bibliotecas, tornando-se uma escolha popular para desenvolvedores de todos os níveis.
@@ -12,17 +22,6 @@ Bootstrap é um dos frameworks front-end mais populares do mundo, projetado para
 Documentação oficial: [https://getbootstrap.com/docs/5.3/getting-started/introduction/](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
 
 Melhor tutorial: [https://www.w3schools.com/bootstrap5/](https://www.w3schools.com/bootstrap5/)
-
-
-### Vantagens de Baixar e Rodar o Bootstrap Localmente
-
-Independência de Conexão com a Internet: Usar uma versão local significa que seu site não depende de uma conexão com a internet para carregar o Bootstrap. Isso é particularmente útil em ambientes de desenvolvimento offline ou em ambientes onde a conexão com a internet é lenta ou instável.
-
-Controle sobre a Versão: Ter uma cópia local do Bootstrap permite que você controle exatamente qual versão está sendo usada. Isso evita problemas com atualizações automáticas que podem ocorrer ao usar CDNs, onde novas versões podem introduzir mudanças inesperadas.
-
-Customização: Ao baixar Bootstrap localmente, você pode personalizar os arquivos CSS e JavaScript diretamente para atender às necessidades específicas do seu projeto, eliminando código desnecessário e potencialmente reduzindo o tamanho dos arquivos.
-
-Consistência de Desempenho: Usar arquivos locais pode oferecer tempos de carregamento mais consistentes, pois elimina a variabilidade de latência de rede que pode ocorrer ao carregar arquivos de um servidor remoto.
 
 
 ## COMO RODAR ESSE PROJETO EM SEU COMPUTADOR:
