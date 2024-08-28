@@ -89,7 +89,7 @@ Melhor tutorial: [https://www.w3schools.com/bootstrap5/](https://www.w3schools.c
 
 ### Código HTML 
 
-Aqui está o código HTML usado para adicionar o Boostrap 5.3.3 ao projeto:
+Aqui está o código HTML usado para adicionar o Boostrap 5.3.3 ao projeto com a tag static do Django ao invés de uma url de CDN. Compare com o [repositório anterior](https://github.com/Django-Dev-Br/009-Django-4-static-files-Bootstrap5-CDN).
 
 ```
  
