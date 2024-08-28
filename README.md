@@ -93,7 +93,9 @@ Aqui está o código HTML usado para adicionar o Boostrap 5.3.3 ao projeto:
 
 ```
  
-{% load static %} <!-- Carrega a tag 'static' para uso nos caminhos dos arquivos estáticos -->
+ 
+{% load static %} 
+<!-- Carrega a tag 'static' para uso nos caminhos dos arquivos estáticos -->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -104,9 +106,10 @@ Aqui está o código HTML usado para adicionar o Boostrap 5.3.3 ao projeto:
     <title>Página Inicial</title>
     
     <!-- Latest compiled and minified CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="{% static 'myapp/bootstrap/bootstrap.min.css' %}" rel="stylesheet">
+
     <!-- Latest compiled JavaScript -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="{% static 'myapp/bootstrap/bootstrap.bundle.min.js' %}"></script>
 
 </head>
 
@@ -115,7 +118,6 @@ Aqui está o código HTML usado para adicionar o Boostrap 5.3.3 ao projeto:
     <div class="container">  <!-- Usa um container Bootstrap para centralizar o conteúdo -->
 
         <h1 class="p-2 m-2">Imagem do Python Django</h1>
-
         <img class="img-thumbnail"  
              src="{% static 'myapp/images/pythondjango.jpg' %}" 
              alt="Python Django"
