@@ -14,6 +14,17 @@ Documentação oficial: [https://getbootstrap.com/docs/5.3/getting-started/intro
 Melhor tutorial: [https://www.w3schools.com/bootstrap5/](https://www.w3schools.com/bootstrap5/)
 
 
+### Vantagens de Baixar e Rodar o Bootstrap Localmente
+
+Independência de Conexão com a Internet: Usar uma versão local significa que seu site não depende de uma conexão com a internet para carregar o Bootstrap. Isso é particularmente útil em ambientes de desenvolvimento offline ou em ambientes onde a conexão com a internet é lenta ou instável.
+
+Controle sobre a Versão: Ter uma cópia local do Bootstrap permite que você controle exatamente qual versão está sendo usada. Isso evita problemas com atualizações automáticas que podem ocorrer ao usar CDNs, onde novas versões podem introduzir mudanças inesperadas.
+
+Customização: Ao baixar Bootstrap localmente, você pode personalizar os arquivos CSS e JavaScript diretamente para atender às necessidades específicas do seu projeto, eliminando código desnecessário e potencialmente reduzindo o tamanho dos arquivos.
+
+Consistência de Desempenho: Usar arquivos locais pode oferecer tempos de carregamento mais consistentes, pois elimina a variabilidade de latência de rede que pode ocorrer ao carregar arquivos de um servidor remoto.
+
+
 ## COMO RODAR ESSE PROJETO EM SEU COMPUTADOR:
 
 ### Requisitos
