@@ -21,27 +21,6 @@ Veja exemplos de páginas bootstrap: [https://getbootstrap.com/docs/4.0/examples
 
 ### Requisitos
 
-- **Python 3.12**  
-  [Baixar Python 3.12](https://www.python.org/downloads/release/python-3122/)
-
-  Confira o vídeo para saber como trabalhar com múltiplas versões do Python e com venv (ambiente virtual): [Trabalhando com Múltiplas Versões do Python + venv](https://youtu.be/eetDeQrv0Rs?si=rAIDmLCgdeh7ouXa)
-
-- **Virtualenv**
-
-  Para instalar o pacote `virtualenv` no Python, utilize os seguintes comandos:
-
-  - **Linux**:
-    ```bash
-    python3 -m pip install virtualenv
-    ```
-
-  - **Windows**:
-    ```bash
-    python -m pip install virtualenv
-    ```
-
-### Passos para Executar
-
 - **Python 3.12 com PIP e venv**
 - **o Django 5 requer Python 3.10 ou superior.**
 
