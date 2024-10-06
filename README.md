@@ -57,7 +57,7 @@ Veja exemplos de páginas bootstrap: [https://getbootstrap.com/docs/4.0/examples
 
 1. **Clone o repositório**:
     ```bash
-    git clone https://github.com/Django-Dev-Br/007-Django5-Custom-404-Error-Page.git
+    git clone https://github.com/Django-Dev-Br/010-Django5-Static-Files-Bootstrap5-local.git
     ```
 
 2. **Crie um ambiente virtual**:
@@ -85,7 +85,7 @@ Veja exemplos de páginas bootstrap: [https://getbootstrap.com/docs/4.0/examples
     
 4. **Acesse a pasta do repositório**:
     ```bash
-    cd 007-Django5-Custom-404-Error-Page
+    cd 010-Django5-Static-Files-Bootstrap5-local
     ```
     
 5. **Instale o Django**:
