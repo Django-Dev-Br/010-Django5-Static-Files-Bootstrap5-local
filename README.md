@@ -1,5 +1,5 @@
 
-# 010 Django 4 Static Files - Bootstrap5 Local 
+# 010 Django 5 -  Static Files: Bootstrap5 Local 
 
 Neste [repositório anterior](https://github.com/Django-Dev-Br/009-Django-4-static-files-Bootstrap5-CDN), o Boostrap foi adicionado via CDN que é uma rede de entrega de conteúdo através da internet. 
 
@@ -42,36 +42,75 @@ Veja exemplos de páginas bootstrap: [https://getbootstrap.com/docs/4.0/examples
 
 ### Passos para Executar
 
+- **Python 3.12 com PIP e venv**
+- **o Django 5 requer Python 3.10 ou superior.**
+
+- **No [repositório 001](https://github.com/Django-Dev-Br/001-django5-basic-project) há explicações sobre PIP e venv**
+  
+  [Baixar Python 3.12](https://www.python.org/downloads/release/python-3122/)
+
+   Confira o vídeo para saber como trabalhar com múltiplas versões do Python e com venv (ambiente virtual):
+  [![Watch the video](https://img.youtube.com/vi/eetDeQrv0Rs/0.jpg)](https://youtu.be/eetDeQrv0Rs)
+
+
+### 7 passos simples para executar
+
 1. **Clone o repositório**:
     ```bash
-    git clone https://github.com/Django-Dev-Br/010-Django-4-Static-Files-Bootstrap5-local.git
-    cd 010-Django-4-Static-Files-Bootstrap5-local
+    git clone https://github.com/Django-Dev-Br/007-Django5-Custom-404-Error-Page.git
     ```
 
 2. **Crie um ambiente virtual**:
    
-    - **Linux**:
+    **Windows**
     ```bash
-    python3 -m venv myvenv
+     python -m venv myvenv  
     ```
-
-  - **Windows**:
+   **Linux**
     ```bash
-    python -m venv myvenv
+     python3 -m venv myvenv  
     ```
 
 3. **Ative o ambiente virtual criado**:
+   
+    **Windows**
     ```bash
-    source myvenv/bin/activate  # Linux
-    myvenv\Scripts\activate  # Windows
+    myvenv\Scripts\activate  
     ```
 
-4. **Instale o Django**:
+   **Linux**
     ```bash
-    pip install django==4.2.15
+    source myvenv/bin/activate  
+    ```
+    
+4. **Acesse a pasta do repositório**:
+    ```bash
+    cd 007-Django5-Custom-404-Error-Page
+    ```
+    
+5. **Instale o Django**:
+
+   Fazer a instalação após a ativação da virtual env fará com que a instalação seja feita nessa pasta ao invés do computador. Isso significa que o pacote Django não estará disponivel para todos os usuários do computador, mas apenas para o contexto no qual essa venv esteja ativada. Veremos sua ativação logo abaixo.
+
+    **Instalação manualmente via gerenciador de dependências PIP**
+    ```bash
+    pip install django
+    ```
+    - use, preferencialmente, a versão 5.1. Para tanto, execute o comando:
+
+     ```bash
+    pip install  "django>=5.1,<=5.2"
     ```
 
-5. **Execute o servidor de desenvolvimento**:
+    ----- **OU** -----
+
+    **Instalação via arquivo requirements**
+    ```bash
+    pip install -r requirements.txt
+    ```
+    O arquivo requirements.txt é um arquivo de texto que contém uma lista de pacotes a ser instalado em uma venv. É uma boa prática de programação do ecossistema Python.
+
+6. **Execute o servidor de desenvolvimento**:
     ```bash
     python manage.py runserver
     ```
@@ -82,7 +121,7 @@ Veja exemplos de páginas bootstrap: [https://getbootstrap.com/docs/4.0/examples
 
 ### Código HTML 
 
-Aqui está o código HTML usado para adicionar o Boostrap 5.3.3 ao projeto com a tag static do Django ao invés de uma url de CDN. Compare com o [repositório anterior](https://github.com/Django-Dev-Br/009-Django-4-static-files-Bootstrap5-CDN).
+Aqui está o código HTML usado para adicionar o Boostrap 5.3.3 ao projeto com a tag static do Django ao invés de uma url de CDN. Compare com o [repositório anterior](https://github.com/Django-Dev-Br/009-Django5-static-files-Bootstrap5-CDN).
 
 ```
  
@@ -172,8 +211,8 @@ Por exemplo, para verificar se o Django consegue encontrar o arquivo bootstrap.m
 
 Exemplo:
 
-bash
-```
+
+```python
 python manage.py findstatic myapp/bootstrap/bootstrap.min.css
 ```
 
