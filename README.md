@@ -142,7 +142,7 @@ Aqui está o código HTML usado para adicionar o Boostrap 5.3.3 ao projeto com a
 ### Estrutura de Diretórios do Projeto
 
 ```
-010-Django-4-Static-Files-Bootstrap5-local/
+010-Django5-Static-Files-Bootstrap5-local/
 ├── manage.py
 ├── myapp/
 │   ├── __init__.py
@@ -163,6 +163,7 @@ Aqui está o código HTML usado para adicionar o Boostrap 5.3.3 ao projeto com a
         │   └── bootstrap.bundle.min.js  # Arquivo JS do Bootstrap
         └── images/
             └── pythondjango.jpg  # Imagem a ser exibida
+└── requirements.txt    # Lista de pacotes Python necessários para o projeto
 ```
 
 ### OBS: 
